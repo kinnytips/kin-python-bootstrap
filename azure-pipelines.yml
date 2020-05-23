@@ -10,8 +10,8 @@ trigger:
     include:
     - '*'
     exclude:
-    - '**/*.md'
-    - '**/*.yml'
+    - 'README.md'
+    - 'azure-pipelines.yml'
 
 resources:
 - repo: self
