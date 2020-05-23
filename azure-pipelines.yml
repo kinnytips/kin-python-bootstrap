@@ -10,8 +10,8 @@ trigger:
     include:
     - '*'
     exclude:
-    - '*.md'
-    - '*.yml'
+    - '**/*.md'
+    - '**/*.yml'
 
 resources:
 - repo: self
